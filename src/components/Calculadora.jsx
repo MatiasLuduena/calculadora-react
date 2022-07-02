@@ -6,7 +6,7 @@ const Calculadora = () => {
     const [resultado, setResultado] = useState('');
     const [igual, setIgual] = useState(false);
 
-    const operadores = ['/', 'x', '-', '+', '.'];
+    const operadores = ['/', '*', '-', '+', '.'];
 
     function calcularResultado(valor) {
         if (igual) {
@@ -59,7 +59,7 @@ const Calculadora = () => {
             </div>
             <div className='col'>
                 <button onClick={() => borrarTodo()}>C</button>
-                <button onClick={() => calcularResultado('x')}>x</button>
+                <button onClick={() => calcularResultado('*')}>x</button>
                 <button onClick={() => calcularResultado('/')}>÷</button>
             </div>
             <div className='col'>
