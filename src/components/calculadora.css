@@ -49,3 +49,21 @@
 .col button:active {
     background-color: rgba(0, 0, 109);
 }
+
+@media (max-width: 380px) {
+    .App {
+        display: block;
+        height: auto;
+    }
+    .contenedor {
+        margin: 20px auto;
+    }
+    .pantalla {
+        height: 100px;
+        padding: 20px;
+        font-size: 2em;
+    }
+    .col button {
+        height: 65px;
+    }
+}
